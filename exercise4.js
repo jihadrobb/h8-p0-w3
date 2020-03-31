@@ -64,7 +64,7 @@ function dataHandling2(input){
     console.log(ttl.join('-'));
 
     //Nama 15 karakter
-    return (input[1].slice(0,15));
+    return (input[1].toString().slice(0,15));
 }
 
 
