@@ -1,7 +1,7 @@
 //Exercise 5 Palindrome
 
 function palindrome(kata) {
-    for(var i=0; i<kata.length; i++){
+    for(var i=0; i<kata.length/2; i++){
         if(kata[i] !== kata[kata.length-1-i]){
             return false;
         }
