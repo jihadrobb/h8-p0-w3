@@ -15,7 +15,7 @@ function cariMean(arr) {
                     newStr += carikoma[j];
                     rata2 = parseInt(newStr) + 1;
                 }
-            } else {
+            } else { //Pembulatan ke bawah
                 for (var j = 0; j <= i; j++) {
                     newStr += carikoma[j];
                     rata2 = parseInt(newStr);
