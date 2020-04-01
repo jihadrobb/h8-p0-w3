@@ -43,8 +43,11 @@ function dataHandling2(input){
         case 11:
             console.log('November');
             break;
-        default:
+        case 12:
             console.log('Desember');
+            break;
+        default:
+            console.log('Salah Bulan');
     }
 
     //Sorting TTL
