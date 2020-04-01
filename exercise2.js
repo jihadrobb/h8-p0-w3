@@ -7,6 +7,9 @@ function balikString(kata){
         dibalik.push(kata[i]);
     }
     var str = '';
-    
+    for (var i=0; i<dibalik.length; i++){
+        str += dibalik[i];
+    }
+    return str;
 }
 console.log(balikString(kata));

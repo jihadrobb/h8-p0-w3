@@ -67,12 +67,13 @@ function dataHandling2(input){
     console.log(ttl.join('-'));
 
     //Nama 15 karakter
-    return (input[1].toString().slice(0,15));
+    console.log (input[1].toString().slice(0,15));
+    return '';
 }
 
 
 var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"];
-console.log(dataHandling2(input));
+dataHandling2(input);
 
 /**
  * keluaran yang diharapkan (pada console)
