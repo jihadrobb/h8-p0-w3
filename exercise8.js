@@ -3,9 +3,9 @@ function pasanganTerbesar(num) {
     var str = num.toString();
     var max = parseInt(str[0]+str[1]);
     for(var i=1; i<str.length-1; i++){
-        var x = str[i] + str[i+1];
-        if(x > max){
-            max = x;
+        var temp = parseInt(str[i] + str[i+1]);
+        if(temp > max){
+            max = temp;
         }
     }
     return max;
