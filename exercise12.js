@@ -1,6 +1,6 @@
 //Exercise 12 Deret Geometri
 function tentukanDeretGeometri(arr) {
-    var perkalian = arr[1]/arr[0];
+    var perkalian = arr[1]/arr[0]; //asumsi array punya lebih dari 1 elemen
     for (let i = 1; i < arr.length-1; i++) {
         if(arr[i+1] / arr[i] !== perkalian){
             return false;
