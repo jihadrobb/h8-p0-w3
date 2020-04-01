@@ -1,6 +1,6 @@
 //Exercise 11 Deret Aritmatika
 function tentukanDeretAritmatika(arr) {
-    var pertambahan = arr[1]-arr[0];
+    var pertambahan = arr[1]-arr[0]; //asumsi array punya lebih dari 1 elemen
     for (let i = 1; i < arr.length-1; i++) {
         if(arr[i+1] - arr[i] !== pertambahan){
             return false;
