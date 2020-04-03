@@ -23,7 +23,11 @@ function groupAnimals(animals) {
     //urutkan index
     for (let l = 0; l < newArr.length-1; l++) {
         for (let m = 0; m < newArr.length; m++) {
-            
+            if(newArr[l][0][0] > newArr[l+1][0][0]){
+                var temp = newArr[l];
+                newArr[l] = newArr[l+1];
+                newArr[l+1] = temp;
+            }
         }
     }
     return newArr;
@@ -34,3 +38,4 @@ function groupAnimals(animals) {
   // [ ['ayam', 'anoa'], ['cacing'], ['kuda', 'kancil'] ]
   console.log(groupAnimals(['cacing', 'ayam', 'kuda', 'anoa', 'kancil', 'unta', 'cicak' ]));
   // [ ['ayam', 'anoa'], ['cacing', 'cicak'], ['kuda', 'kancil'], ['unta'] ]
+  console.log('a'<'b');
