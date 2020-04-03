@@ -15,7 +15,7 @@ function mengelompokkanAngka(arr) {
     return [genap, ganjil, kelip3];
 }
 function mengelompokkanAngka2(arr) {
-    var newArr =[[],[], []];
+    var newArr =[[], [], []];
     for (let i = 0; i < arr.length; i++) {
         if(arr[i]%3 === 0){
             newArr[2].push(arr[i]);
