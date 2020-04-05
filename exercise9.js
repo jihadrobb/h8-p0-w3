@@ -6,17 +6,17 @@ function cariMean(arr) {
     }
     var rata2 = jumlah / arr.length;
     //Pembulatan
-    var carikoma = rata2.toString();
-    for (var i = 0; i < carikoma.length; i++) {
-        if (carikoma[i] === '.') {
-            if (carikoma[i + 1] > 5) { //Pembulatan diatas .5
-                rata2 = Math.ceil(rata2);
-            } else { //Pembulatan ke bawah
-                rata2 = Math.floor(rata2);
-            }
-        }
-    }
-    return rata2;
+    // var carikoma = rata2.toString();
+    // for (var i = 0; i < carikoma.length; i++) {
+    //     if (carikoma[i] === '.') {
+    //         if (carikoma[i + 1] > 5) { //Pembulatan diatas .5
+    //             rata2 = Math.round(rata2);
+    //         } else { //Pembulatan ke bawah
+    //             rata2 = Math.round(rata2);
+    //         }
+    //     }
+    // }
+    return Math.round(rata2);
 
 }
 
