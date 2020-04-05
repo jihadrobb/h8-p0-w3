@@ -10,9 +10,9 @@ function cariMean(arr) {
     // for (var i = 0; i < carikoma.length; i++) {
     //     if (carikoma[i] === '.') {
     //         if (carikoma[i + 1] > 5) { //Pembulatan diatas .5
-    //             rata2 = Math.round(rata2);
+    //             rata2 = Math.ceil(rata2);
     //         } else { //Pembulatan ke bawah
-    //             rata2 = Math.round(rata2);
+    //             rata2 = Math.floor(rata2);
     //         }
     //     }
     // }
